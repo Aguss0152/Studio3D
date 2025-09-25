@@ -19,8 +19,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const instagram = document.getElementById('instagram');
     const facebook = document.getElementById('facebook');
     const btnTienda = document.getElementById('btn_tienda');
+    const btnDisenar = document.getElementById('btn-disenar');
+    const btnExplorar = document.getElementById('btn-explorar');
+
+    btnDisenar.addEventListener('click', () => {
+        window.open('https://wa.me/5492617129357?text=Que%20tienes%en%20mente?')
+    }); 
 
     btnTienda.addEventListener('click', () => {
+        window.location.href = 'templates/tienda.html'
+    });
+
+    btnExplorar.addEventListener('click', () => {
         window.location.href = 'templates/tienda.html'
     });
 

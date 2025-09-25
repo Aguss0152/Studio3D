@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111927;
+  background-image:
+    radial-gradient(at 47% 33%, hsl(177.45, 100%, 25%) 0, transparent 59%),
+    radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+  line-height: 1.6;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+  text-shadow: 2px 2px 2px black;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.sobre_nosotros_container {
+  padding: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.182);
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 5px;
+  margin: 15px;
+  gap: 0.5rem;
+}
+
+.sobre_nosotros_container ul li {
+    margin: 1rem;
+}
+
+.sobre_nosotros_container a {
+    display: flex;
+    justify-content: center;
+}

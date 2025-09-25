@@ -90,8 +90,8 @@ body {
 .productos {
   color: white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
   padding: 20px;
   justify-items: center;
   height: 100%;
@@ -387,6 +387,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .productos {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); /* Se crea un diseño con menos columnas y más grandes para escritorio */
   }
 
   .nav-links {

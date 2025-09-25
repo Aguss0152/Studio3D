@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnExplorar = document.getElementById('btn-explorar');
 
     btnDisenar.addEventListener('click', () => {
-        window.open('https://wa.me/5492617129357?text=Que%20tienes%en%20mente?')
+        window.open('https://wa.me/5492617129357?text=Que%20tienes%20en%20mente?')
     }); 
 
     btnTienda.addEventListener('click', () => {

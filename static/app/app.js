@@ -5,20 +5,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelector('.nav-links');
 
     // Agrega un listener para el evento 'change' en el checkbox
+
     burgerCheckbox.addEventListener('change', () => {
         // Al cambiar el estado, alterna la clase 'active' en el menú de navegación
         // `toggle` con un segundo argumento (true/false) es perfecto para esto
         navLinks.classList.toggle('active', burgerCheckbox.checked);
     });
 });
-document.addEventListener ('DOMContentLoaded', function() {
+
+// Activa las funciones de redes sociales y enlace hacia tienda. 
+document.addEventListener('DOMContentLoaded', function() {
     const whatsapp = document.getElementById('whatsapp');
     const instagram = document.getElementById('instagram');
     const facebook = document.getElementById('facebook');
     const btnTienda = document.getElementById('btn_tienda');
 
     btnTienda.addEventListener('click', () => {
-        window.location.href = '../templates/tienda.html'
+        window.location.href = 'templates/tienda.html'
     });
 
     instagram.addEventListener('click', () => {

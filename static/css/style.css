@@ -173,9 +173,12 @@ body {
   margin: 0;
   height: auto;
   background: transparent;
-  padding: 0;
+  padding: 0px;
   border: none;
   cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px black;
 }
 
 .button {
@@ -916,9 +919,6 @@ html {
 .productos:hover {
   transform: scale(1.1);
 }
-
-
-/*Scroll para la seccion de informacion*/
 
 .oculto-i {
   opacity: 1;
